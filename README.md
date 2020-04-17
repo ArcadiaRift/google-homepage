@@ -1,0 +1,1 @@
+In this project, I will build the google homepage from scratch by disassembling the main website and putting it back together. It will be pure design and no function (that would require more experience!). I'm very eager to see what it'll look like once I'm done.
