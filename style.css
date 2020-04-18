@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.center {
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbar {
+    height: 3.85vh;
+    width: 25%;
+    position: absolute;
+    bottom: 53%;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 18px;
+    font-size: 17px;    
+    padding: 0 2.8em 0 2.8em;
+    
+}
+
+#microphone {
+    z-index: 2;
+    height: 2.1vh;
+    position: absolute;
+    bottom: 53.9vh;
+    right: 35.4%;
+
+}
+
+#searchbar:hover {
+    box-shadow: 0px 0px 8px 0px rgba(189, 186, 186, 0.534);
+}
+
+#search {
+    height: 1.8%;
+    width: auto;
+    position: absolute;
+    bottom: 54.3vh;
+    left: 35.4%;
+}
+
+.centerbutton1 {
+    position: absolute;
+    bottom: 47vh;
+    left: 42.4%;
+    background-color: #e2e0e0;
+    color: rgb(61, 61, 61);
+    border-style: solid;
+    border-color: #e2e0e0;
+    border-radius: 3px;
+    padding: 7px 17px 7px 17px;
+    
+}
+
+.centerbutton2 {
+    position: absolute;
+    bottom: 47vh;
+    left: 49.9%;
+    background-color: #e2e0e0;
+    color: rgb(61, 61, 61);
+    border-style: solid;
+    border-color: #e2e0e0;
+    border-radius: 3px;
+    padding: 7px 17px 7px 17px;
+    
+}
+
+li {
+    display: inline;
+    padding-left: 2vh;
+}
+
+.navright {
+    position: absolute;
+    right: 5vh;
+    top: 2vh;
+}
+
+.navleft {
+    position: absolute;
+    left: 3vh;
+    top: 4vh;
+}
+
+#menubutton {
+    height: 3vh;
+    width: 3vh;
+    position: relative;
+    top: 1vh;
+   
+}
+
+#signinbutton:hover {
+    box-shadow: 0.6px 0.6px 0.6px gray;
+}
+
+#signinbutton {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #4285f4;
+    border-radius: 2.5px;
+    padding: 6px 12px 6px 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foot {
+  background-color: #f2f2f2;
+  color: #5f6368;
+  display: inline;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4%;
+  font-size: 15px;
+  border: 2px solid #e7e7e7;
+}
+
+.footright {
+    position: absolute;
+    top: 1vh;
+    right: 4vh;
+}
+
+.footleft {
+    position: absolute;
+    top: 1vh;
+    left: 2vh
+}
+
+.footvis:visited {
+    color: #5f6368
+}
